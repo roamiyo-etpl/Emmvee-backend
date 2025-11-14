@@ -1,0 +1,32 @@
+import { TboHotelImagesEntity } from './tbo-hotel-images.entity';
+export declare class TboHotelAdditionalDetailsEntity {
+    id: string;
+    hotelCode: string;
+    supplierCode: string;
+    hotelName: string;
+    rating: number;
+    latitude: string;
+    longitude: string;
+    address: string;
+    city: string;
+    state: string;
+    country: string;
+    cityCode: string;
+    stateCode: string;
+    countryCode: string;
+    pincode: string;
+    heroImage: string;
+    amenities: [];
+    description: [];
+    hotelEmail: string;
+    hotelPhones: string[] | [];
+    boardCodes: [];
+    websiteUrl: string;
+    interestPoints: string[] | [];
+    terminals: [];
+    createdAt: Date;
+    updatedAt: Date;
+    images: TboHotelImagesEntity[];
+    hotelVector: string | null;
+    hotelNameNormalized: string | null;
+}
